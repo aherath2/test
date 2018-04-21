@@ -1,4 +1,4 @@
-# Git Guide CS 125
+# Git Guide MP7
 (**Trigger Warning**: I'm only slightly less of a noob than y'all so be nice and pls tell me if something here is incorrect.)
 
 ### Other Guides
@@ -71,6 +71,8 @@ git pull --no-edit
 
 ### Review
 
+<b>Remember, the default terminal on mac and linux should work for git but on windows you will have to run all commands from the `git bash` terminal, not the command prompt</b>.
+
 To be done once after creating your repository:
 
 ```
@@ -101,3 +103,7 @@ To be done every time you want to pull your partners changes:
 ```
 git pull --no-edit
 ```
+
+#   
+
+#### Thanks for reading my guide! Good luck on MP7!
