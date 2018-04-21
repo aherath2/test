@@ -66,5 +66,38 @@ git push origin master
 
 To retrieve changes that your partner has made:
 ```
-git pull
+git pull --no-edit
+```
+
+### Review
+
+To be done once after creating your repository:
+
+```
+cd /path/to/AndroidStudioProjects/my_cool_mp7_project/
+git init
+git add .
+git commit -m "my commit message"
+git remote add origin https://github.com/myusername/my_repo_name.git
+git push -u origin master
+```
+
+To be done once by the partner who did not create the repository:
+
+```
+git clone https://github.com/mypartnersusername/their_repo_name.git
+```
+
+To be done every time you want to commit and push changes:
+
+```
+git add .
+git commit -m "my commit message"
+git push origin master
+```
+
+To be done every time you want to pull your partners changes:
+
+```
+git pull --no-edit
 ```
